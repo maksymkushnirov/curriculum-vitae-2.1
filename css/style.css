@@ -81,11 +81,11 @@ body {
 /* COMMON */
 
 .tablet-element {
-  display: none;
+  display: none !important;
 }
 
 .desktop-element {
-  display: none;
+  display: none !important;
 }
 
 .mobile-element {
@@ -688,6 +688,12 @@ body {
   margin-bottom: 30px;
 }
 
+.swiper-container {
+  width: 300px;
+  height: auto;
+  margin-bottom: 30px;
+}
+
 /* TEAM PROJECT */
 
 .team-projects .container {
@@ -1016,13 +1022,17 @@ body {
   }
 
   .tablet-element {
-    display: block;
+    display: block !important;
   }
 
   .front-page-my-name {
     font-size: 36px;
     line-height: 43px;
     margin-bottom: 0;
+  }
+
+  .swiper-container {
+    width: 600px;
   }
 
   .front-page-profession {
@@ -1053,6 +1063,7 @@ body {
     display: flex;
     align-items: center;
     margin-bottom: 60px;
+    flex-direction: row;
   }
 
   .front-page-my-photo {
@@ -1235,11 +1246,11 @@ body {
     max-width: var(--desktop-lg);
   }
   .tablet-element {
-    display: none;
+    display: none  !important;
   }
 
   .desktop-element {
-    display: block;
+    display: block  !important;
   }
 
   .front-page-my-info {
@@ -1247,6 +1258,10 @@ body {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
+  }
+
+  .swiper-container {
+    width: 900px;
   }
 
   .front-page-profession {
